@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+
+    a {
+        color: #181818;
+    }
+
+    a:hover, a.active {
+        color: #35AFF4;
+    }
+}
+
+.nav__btns {
+    display: flex;
+    gap: 12px;
+}
+
+.btn-login {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid #B7B7B7;
+    color: #454545;
+    font-family: Circular Std;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%; /* 24px */
+}
