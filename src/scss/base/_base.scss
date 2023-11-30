@@ -6,6 +6,8 @@ body {
 	background-color: var(--page-bg);
 	color: var(--text-color);
     font-family: var(--font-main);
+	-webkit-font-smothing: antialiased;
+	-moz-osx-font-smothing: grayscale;
 }
 
 img {
