@@ -13,3 +13,36 @@ body {
 img {
 	display: block;
 }
+
+.title-1 {
+	color: var(--text-color);
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+
+	&--decor {
+		position: relative;
+	}
+	
+	&--decor::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 267px;
+		height: 24px;
+		z-index: -1;
+		background-image: url(../../img/discover/underline.svg);
+
+
+	}
+}
+
+.text {
+	color: var(--text-muted);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 150%; /* 27px */
+}
